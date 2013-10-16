@@ -18,7 +18,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"%@\n%@", self.name, self.address];
+    return [NSString stringWithFormat:@"%@\n%@\nOwns %@", self.name, self.address, self.forest];
 }
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Forest.h"
+
 
 @interface Owner : NSObject
 
@@ -14,6 +16,7 @@
 @property NSString *address;
 @property NSString *zipcode;
 @property NSString *town;
+@property Forest *forest;
 
 - (id)initWithName:(NSString *)name andAddress:(NSString *)address;
 

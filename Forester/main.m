@@ -20,6 +20,7 @@ int main(int argc, const char * argv[])
         NSLog(@"%@", forest);
         
         Owner *owner = [[Owner alloc] initWithName:@"Christian" andAddress:@"Svenstrup"];
+        owner.forest = forest;
         NSLog(@"%@", owner);
     }
     return 0;
