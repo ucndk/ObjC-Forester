@@ -7,15 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Forest.h"
+#import "Owner.h"
+
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Forest *forest = [[Forest alloc] initWithName:@"Rold Skov" location:@"Rold" size:123 price:23.4];
+        NSLog(@"%@", forest);
         
+        Owner *owner = [[Owner alloc] initWithName:@"Christian" andAddress:@"Svenstrup"];
+        NSLog(@"%@", owner);
     }
     return 0;
 }
