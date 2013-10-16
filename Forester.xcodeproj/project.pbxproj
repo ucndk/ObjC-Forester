@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4C5957180EBC22009F46F1 /* Forest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C5956180EBC22009F46F1 /* Forest.m */; };
 		3EA29BFD180EBB690015340A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA29BFC180EBB690015340A /* Foundation.framework */; };
 		3EA29C00180EBB690015340A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA29BFF180EBB690015340A /* main.m */; };
 		3EA29C04180EBB690015340A /* Forester.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EA29C03180EBB690015340A /* Forester.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E4C5955180EBC21009F46F1 /* Forest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forest.h; sourceTree = "<group>"; };
+		3E4C5956180EBC22009F46F1 /* Forest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forest.m; sourceTree = "<group>"; };
 		3EA29BF9180EBB690015340A /* Forester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Forester; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA29BFC180EBB690015340A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3EA29BFF180EBB690015340A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				3EA29BFF180EBB690015340A /* main.m */,
 				3EA29C03180EBB690015340A /* Forester.1 */,
 				3EA29C01180EBB690015340A /* Supporting Files */,
+				3E4C5955180EBC21009F46F1 /* Forest.h */,
+				3E4C5956180EBC22009F46F1 /* Forest.m */,
 			);
 			path = Forester;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4C5957180EBC22009F46F1 /* Forest.m in Sources */,
 				3EA29C00180EBB690015340A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				3EA29C09180EBB690015340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
